@@ -28,7 +28,7 @@ event zeek_done()
 		{
 			temp += 1;
 		}
-		if(temp >= 2)
+		if(temp >= 3)
 		{
 			print fmt("%s is a proxy",IP);
 		}
